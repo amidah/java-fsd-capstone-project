@@ -22,7 +22,7 @@ public class CuisineService {
 	}
 	
 	// CRUD Methods
-	public List<Cuisine> findAlCuisines(){
+	public List<Cuisine> findAllCuisines(){
 		return cuisineRepository.findAll();
 	}
 	
